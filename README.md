@@ -19,7 +19,7 @@ An AI-powered platform that analyzes patient prescriptions to identify patterns 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/rafaytariq-dev/Smart-Prescription-Abuse-Detection-System.git
+git clone https://github.com/smartasscoder/Smart-Prescription-Abuse-Detection-System.git
 cd Smart-Prescription-Abuse-Detection-System
 ```
 

@@ -41,7 +41,7 @@ class RiskScoreIndicator extends StatelessWidget {
                 child: CircularProgressIndicator(
                   value: riskScore / 100,
                   strokeWidth: size * 0.1,
-                  backgroundColor: color.withOpacity(0.2),
+                  backgroundColor: color.withValues(alpha: 0.2),
                   valueColor: AlwaysStoppedAnimation<Color>(color),
                 ),
               ),

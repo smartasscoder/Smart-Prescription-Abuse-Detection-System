@@ -35,7 +35,7 @@ class RiskPrediction {
 
 class MLService {
   // Default fallback URL
-  static const String _defaultUrl = 'http://192.168.18.48:5000';
+  static const String _defaultUrl = 'http://127.0.0.1:5000';
 
   Future<String> _getBaseUrl() async {
     final prefs = await SharedPreferences.getInstance();
